@@ -1,6 +1,6 @@
 {
   "name": "browser-notification-for-web-app",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A lite package to display desktop notification for web application.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
