@@ -1,0 +1,39 @@
+{
+  "name": "browser-notification",
+  "version": "1.0.0",
+  "description": "A lite package to display desktop notification for web application.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/William-Zhen-YAN/browser-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/William-Zhen-YAN/browser-notification/issues"
+  },
+  "homepage": "https://github.com/William-Zhen-YAN/browser-notification#readme",
+  "keywords": [
+    "notification",
+    "desktop",
+    "browser"
+  ],
+  "author": "Zhen YAN",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.159",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
