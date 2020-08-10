@@ -1,8 +1,8 @@
 {
   "name": "browser-notification-for-web-app",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A lite package to display desktop notification for web application.",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
