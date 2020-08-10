@@ -16,7 +16,7 @@ export default class BrowserNotification {
     };
 
     return new Promise((resolve: any) => {
-      if (!("permission" in window)) {
+      if (("Notification" in window)) {
         console.warn("Notification is not supported in current browser.");
         resolve(false);
       } else {
