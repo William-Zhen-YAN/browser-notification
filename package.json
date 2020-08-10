@@ -2,10 +2,12 @@
   "name": "browser-notification",
   "version": "1.0.0",
   "description": "A lite package to display desktop notification for web application.",
-  "main": "src/index.ts",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare" : "npm run build"
   },
   "repository": {
     "type": "git",
